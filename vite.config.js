@@ -9,7 +9,10 @@ export default ({mode}) => {
     const script = `<script type="module" src="${mainJS}"></script>`
 
     return {
-        publicDir: './src/main/static/public',
+        build: {
+            outDir: '/src/main/resources/dist'
+        },
+        publicDir: '/src/main/static/public',
         plugins: [
         ...(process.env.NODE_ENV === 'production' ? [
             minifyHtml(),
