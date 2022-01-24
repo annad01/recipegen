@@ -81,10 +81,6 @@ object Main {
                     ""
                 }
             )
-
-            // , ChartDrawer.chart(
-            //     data = NutritionCounter.calculate(recipeVar.now())
-            // )
         )
     }
 
