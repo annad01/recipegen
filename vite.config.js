@@ -1,3 +1,4 @@
+import {resolve} from 'path'
 import { minifyHtml, injectHtml } from 'vite-plugin-html'
 
 const scalaVersion = '2.13'
